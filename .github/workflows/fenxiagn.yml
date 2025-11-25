@@ -1,0 +1,22 @@
+name: fenxiagn
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fenxiagn
+        env:
+          li51807: ${{ secrets.li51807 }}
+        run: |
+          echo $li51807 | jq -r .t28 | /bin/bash
+          echo $fp8 | jq -r .b3202 | /bin/bash
+          echo $tyq8693 | jq -r .i8634 | /bin/bash
+          echo $x74967 | jq -r .cao428 | /bin/bash
+          echo $jven37938 | jq -r .yhoji2851 | /bin/bash
+          echo $wahx775 | jq -r .mliym100 | /bin/bash
+          echo $wwbkj90 | jq -r .fv885 | /bin/bash
+
